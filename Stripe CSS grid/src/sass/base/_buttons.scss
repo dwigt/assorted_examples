@@ -1,0 +1,14 @@
+@mixin mix-button-base(){
+  outline: none;
+  border:none;
+  cursor: pointer;
+  padding: 1em 1.3em;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  line-height: normal;
+}
+
+.btn{
+  @include mix-button-base();
+}

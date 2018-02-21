@@ -1,0 +1,502 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 25 25">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-115.54" y1="104.39" x2="-115.52" y2="104.37" gradientTransform="matrix(0, -26, -153, 0, 15980.04, -3000.93)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffa293"/>
+      <stop offset="1" stop-color="#ff948a"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-92.37" y1="86.41" x2="-92.34" y2="86.38" gradientTransform="matrix(0, -120, -51, 0, 4414.05, -11077.98)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffa896"/>
+      <stop offset="1" stop-color="#ffaf9a"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="-93.92" y1="104.39" x2="-93.89" y2="104.36" gradientTransform="matrix(0, -110, -153, 0, 15980.04, -10327.81)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff7b7b"/>
+      <stop offset="1" stop-color="#ff7079"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="-92.08" y1="106.73" x2="-92.06" y2="106.7" gradientTransform="matrix(0, -171, -215, 0, 22955.06, -15744.83)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#cd3d4f"/>
+      <stop offset="1" stop-color="#a52435"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="-87.62" y1="99.89" x2="-87.59" y2="99.86" gradientTransform="matrix(0, -177, -121, 0, 12086.15, -15489.96)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#951c2d"/>
+      <stop offset="1" stop-color="#7f1022"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="-88.28" y1="100.2" x2="-88.25" y2="100.17" gradientTransform="matrix(0, -79, -124, 0, 12425.21, -6954.92)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#891527"/>
+      <stop offset="1" stop-color="#871425"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-7" x1="-87.99" y1="100.2" x2="-87.96" y2="100.17" gradientTransform="matrix(0, -111, -124, 0, 12425.15, -9747.81)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#801021"/>
+      <stop offset="1" stop-color="#9c1f30"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-8" x1="-89" y1="102.3" x2="-88.98" y2="102.27" gradientTransform="matrix(0, -216, -132, 0, 13508.9, -19213.94)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fffbf6"/>
+      <stop offset="1" stop-color="#ffe3c6"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-9" x1="-90.49" y1="103.88" x2="-90.47" y2="103.86" gradientTransform="matrix(0, -124, -155, 0, 16108.04, -11209.71)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff8f0"/>
+      <stop offset="1" stop-color="#fff2e5"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-10" x1="-85.34" y1="106.95" x2="-85.31" y2="106.92" gradientTransform="matrix(0, -208, -214, 0, 22893.92, -17721.73)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff6373"/>
+      <stop offset="1" stop-color="#f35769"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-11" x1="-85.58" y1="104.9" x2="-85.56" y2="104.87" gradientTransform="matrix(0, -234, -172, 0, 18047.92, -19997.94)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#db4759"/>
+      <stop offset="1" stop-color="#ff6a75"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-12" x1="-86.3" y1="95.67" x2="-86.27" y2="95.64" gradientTransform="matrix(0, -202, -75, 0, 7183.96, -17407.96)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffac99"/>
+      <stop offset="1" stop-color="#ffaf9a"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-13" x1="-92.09" y1="100.62" x2="-92.07" y2="100.59" gradientTransform="matrix(0, -171, -111, 0, 11176.96, -15744.96)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c4384a"/>
+      <stop offset="1" stop-color="#a22335"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-14" x1="-86.18" y1="104.89" x2="-86.16" y2="104.87" gradientTransform="matrix(0, -172, -172, 0, 18048.04, -14797.96)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff817f"/>
+      <stop offset="1" stop-color="#ff6c76"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-15" x1="-86.3" y1="102.59" x2="-86.27" y2="102.56" gradientTransform="matrix(0, -200, -130, 0, 13343.9, -17233.96)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff8f87"/>
+      <stop offset="1" stop-color="#ff8e86"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-16" x1="-86.7" y1="103.93" x2="-86.67" y2="103.9" gradientTransform="matrix(0, -149, -167, 0, 17358.04, -12895.96)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d14052"/>
+      <stop offset="1" stop-color="#ba3244"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-17" x1="-94.46" y1="100.48" x2="-94.43" y2="100.45" gradientTransform="matrix(0, -103, -101, 0, 10157.96, -9725.81)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff8380"/>
+      <stop offset="1" stop-color="#ff6073"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-18" x1="-93.28" y1="101.18" x2="-93.25" y2="101.15" gradientTransform="matrix(0, -139, -139, 0, 14063.04, -12963.96)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a22335"/>
+      <stop offset="1" stop-color="#a22335"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-19" x1="-91.27" y1="104.73" x2="-91.25" y2="104.7" gradientTransform="matrix(0, -134, -127, 0, 13319.03, -12223.96)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff7079"/>
+      <stop offset="1" stop-color="#ff988c"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-20" x1="-87.26" y1="94.22" x2="-87.24" y2="94.2" gradientTransform="matrix(0, -100, -73, 0, 6884.96, -8705.98)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff7478"/>
+      <stop offset="1" stop-color="#ff7d7c"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-21" x1="-87.27" y1="103.93" x2="-87.24" y2="103.9" gradientTransform="matrix(0, -100, -167, 0, 17358.04, -8705.92)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f15668"/>
+      <stop offset="1" stop-color="#b83042"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-22" x1="-87.75" y1="102.04" x2="-87.72" y2="102.01" gradientTransform="matrix(0, -72, -125, 0, 12761.21, -6297.92)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffa594"/>
+      <stop offset="1" stop-color="#ffa293"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-23" x1="-87.23" y1="102.03" x2="-87.2" y2="102" gradientTransform="matrix(0, -249, -125, 0, 12761.15, -21698.94)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffd6b2"/>
+      <stop offset="1" stop-color="#ffc6a9"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-24" x1="-88.27" y1="102.83" x2="-88.25" y2="102.8" gradientTransform="matrix(0, -79, -149, 0, 15324.04, -6954.92)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#941b2c"/>
+      <stop offset="1" stop-color="#c03546"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-25" x1="-88.3" y1="98.59" x2="-88.26" y2="98.56" gradientTransform="matrix(0, -96, -102, 0, 10059.96, -8457.92)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ad293b"/>
+      <stop offset="1" stop-color="#cb3c4d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-26" x1="-87.63" y1="102.44" x2="-87.6" y2="102.41" gradientTransform="matrix(0, -175, -94, 0, 9649.97, -15314.96)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff0e1"/>
+      <stop offset="1" stop-color="#fff0e1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-27" x1="-87.45" y1="104.85" x2="-87.42" y2="104.83" gradientTransform="matrix(0, -244, -138, 0, 14483.9, -21317.94)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff5eb"/>
+      <stop offset="1" stop-color="#fff3e7"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-28" x1="-89.91" y1="102.06" x2="-89.88" y2="102.04" gradientTransform="matrix(0, -146, -96, 0, 9818.97, -13121.96)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffd1af"/>
+      <stop offset="1" stop-color="#ffdebc"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-29" x1="-92.6" y1="98.57" x2="-92.57" y2="98.54" gradientTransform="matrix(0, -99, -89, 0, 8781.96, -9158.92)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff5eb"/>
+      <stop offset="1" stop-color="#ffe9d2"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-30" x1="-97.04" y1="91.65" x2="-97.02" y2="91.62" gradientTransform="matrix(0, -59, -58, 0, 5326.08, -5718.87)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffe9d2"/>
+      <stop offset="1" stop-color="#ffe7cf"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-31" x1="-93.38" y1="101.79" x2="-93.35" y2="101.77" gradientTransform="matrix(0, -101, -121, 0, 12324.15, -9424.92)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffdbb6"/>
+      <stop offset="1" stop-color="#ffd8b4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-32" x1="-92.42" y1="103.8" x2="-92.39" y2="103.77" gradientTransform="matrix(0, -120, -142, 0, 14748.04, -11084.8)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffb8a0"/>
+      <stop offset="1" stop-color="#ffcdad"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-33" x1="-91.42" y1="94.42" x2="-91.39" y2="94.39" gradientTransform="matrix(0, -187, -89, 0, 8401.96, -17091.96)" xlink:href="#linear-gradient-18"/>
+    <linearGradient id="linear-gradient-34" x1="-89.1" y1="97.9" x2="-89.07" y2="97.87" gradientTransform="matrix(0, -104, -104, 0, 10181.96, -9249.81)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9e2132"/>
+      <stop offset="1" stop-color="#991e30"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-35" x1="-89.76" y1="93.19" x2="-89.73" y2="93.17" gradientTransform="matrix(0, -116, -75, 0, 6992.96, -10397.98)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff6b76"/>
+      <stop offset="1" stop-color="#f6596c"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-36" x1="-92.37" y1="105.34" x2="-92.34" y2="105.32" gradientTransform="matrix(0, -120, -197, 0, 20755.04, -11077.8)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffa293"/>
+      <stop offset="1" stop-color="#f35769"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-37" x1="-88.42" y1="103.39" x2="-88.4" y2="103.37" gradientTransform="matrix(0, -303, -157, 0, 16234.91, -26782.68)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff8f87"/>
+      <stop offset="1" stop-color="#ff6e76"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-38" x1="-90.98" y1="72.14" x2="-90.96" y2="72.11" gradientTransform="matrix(0, -96, -22, 0, 1607.97, -8721.98)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff9a8e"/>
+      <stop offset="1" stop-color="#ff8984"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-39" x1="-100.89" y1="99.2" x2="-100.86" y2="99.17" gradientTransform="matrix(0, -32, -69, 0, 6864.02, -3217.97)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffaf9a"/>
+      <stop offset="1" stop-color="#ff8e86"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-40" x1="-87.67" y1="102.93" x2="-87.64" y2="102.91" gradientTransform="matrix(0, -186, -146, 0, 15031.91, -16287.96)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff6b76"/>
+      <stop offset="1" stop-color="#ff6d76"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-41" x1="-87.67" y1="96.08" x2="-87.64" y2="96.05" gradientTransform="matrix(0, -186, -81, 0, 7788.96, -16287.96)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff9e90"/>
+      <stop offset="1" stop-color="#ffe1c3"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-42" x1="-89.09" y1="103.84" x2="-89.06" y2="103.81" gradientTransform="matrix(0, -104, -162, 0, 16824.04, -9249.81)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c73a4d"/>
+      <stop offset="1" stop-color="#ff6875"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-43" x1="-88.65" y1="93.47" x2="-88.63" y2="93.44" gradientTransform="matrix(0, -181, -68, 0, 6363.96, -16031.96)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffecd8"/>
+      <stop offset="1" stop-color="#ffebd7"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-44" x1="-91.5" y1="103.83" x2="-91.47" y2="103.8" gradientTransform="matrix(0, -68, -162, 0, 16824.04, -6207.93)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#df4a5b"/>
+      <stop offset="1" stop-color="#ff9a8e"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-45" x1="-89.36" y1="98.75" x2="-89.33" y2="98.72" gradientTransform="matrix(0, -130, -100, 0, 9879.97, -11601.97)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff8f87"/>
+      <stop offset="1" stop-color="#ffb9a1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-46" x1="-88.76" y1="103.89" x2="-88.73" y2="103.86" gradientTransform="matrix(0, -174, -155, 0, 16108.04, -15429.96)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffcdad"/>
+      <stop offset="1" stop-color="#ffe9d2"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-47" x1="-92.1" y1="105.34" x2="-92.07" y2="105.31" gradientTransform="matrix(0, -143, -197, 0, 20755.04, -13165.85)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b22d3f"/>
+      <stop offset="1" stop-color="#d14052"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-48" x1="-93.91" y1="103.48" x2="-93.89" y2="103.46" gradientTransform="matrix(0, -110, -148, 0, 15321.04, -10327.81)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff6173"/>
+      <stop offset="1" stop-color="#bf3445"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-49" x1="-92.47" y1="103.48" x2="-92.44" y2="103.45" gradientTransform="matrix(0, -159, -148, 0, 15321.04, -14700.96)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#bf3445"/>
+      <stop offset="1" stop-color="#a22335"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-50" x1="-92.47" y1="102.15" x2="-92.44" y2="102.12" gradientTransform="matrix(0, -159, -139, 0, 14202.04, -14700.96)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a32436"/>
+      <stop offset="1" stop-color="#a22335"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-51" x1="-92.6" y1="105.24" x2="-92.58" y2="105.21" gradientTransform="matrix(0, -150, -163, 0, 17164.04, -13888.96)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f4586a"/>
+      <stop offset="1" stop-color="#c03546"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-52" x1="-92.26" y1="105.24" x2="-92.24" y2="105.21" gradientTransform="matrix(0, -165, -163, 0, 17164.04, -15222.96)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ca3b4c"/>
+      <stop offset="1" stop-color="#991e30"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-53" x1="-86.7" y1="105.06" x2="-86.68" y2="105.03" gradientTransform="matrix(0, -149, -203, 0, 21326.05, -12895.84)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a62536"/>
+      <stop offset="1" stop-color="#7a0e20"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-54" x1="-87.76" y1="96.88" x2="-87.73" y2="96.85" gradientTransform="matrix(0, -63, -100, 0, 9687.02, -5508.9)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7e0f21"/>
+      <stop offset="1" stop-color="#6c081a"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-55" x1="-100.85" y1="98.57" x2="-100.82" y2="98.54" gradientTransform="matrix(0, -40, -89, 0, 8782.02, -4025.95)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff6ed"/>
+      <stop offset="1" stop-color="#ffedda"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-56" x1="-92.66" y1="95.65" x2="-92.63" y2="95.62" gradientTransform="matrix(0, -84, -74, 0, 7087.02, -7773.98)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff2e4"/>
+      <stop offset="1" stop-color="#fff5ea"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-57" x1="-91.12" y1="101.9" x2="-91.09" y2="101.87" gradientTransform="matrix(0, -162, -149, 0, 15182.04, -14754.96)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a52435"/>
+      <stop offset="1" stop-color="#9c1f30"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-58" x1="-87.72" y1="101.99" x2="-87.69" y2="101.96" gradientTransform="matrix(0, -393, -148, 0, 15093.91, -34458.66)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8c1729"/>
+      <stop offset="1" stop-color="#9a1e2f"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-59" x1="-87.9" y1="105.69" x2="-87.87" y2="105.67" gradientTransform="matrix(0, -355, -223, 0, 23568.93, -31190.67)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b22d3f"/>
+      <stop offset="1" stop-color="#b93143"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-60" x1="-88.43" y1="105.69" x2="-88.4" y2="105.67" gradientTransform="matrix(0, -303, -223, 0, 23568.93, -26782.68)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f4586a"/>
+      <stop offset="1" stop-color="#a32436"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-61" x1="-87.43" y1="89.02" x2="-87.41" y2="88.99" gradientTransform="matrix(0, -112, -69, 0, 6140.96, -9771.98)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#640517"/>
+      <stop offset="1" stop-color="#660516"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-62" x1="-87.63" y1="93.76" x2="-87.6" y2="93.73" gradientTransform="matrix(0, -177, -86, 0, 8061.96, -15489.96)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6e091a"/>
+      <stop offset="1" stop-color="#730a1c"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-63" x1="-87.31" y1="93.76" x2="-87.28" y2="93.73" gradientTransform="matrix(0, -521, -86, 0, 8061.83, -45466.88)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#811122"/>
+      <stop offset="1" stop-color="#7a0e20"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-64" x1="-86.38" y1="105.77" x2="-86.35" y2="105.74" gradientTransform="matrix(0, -136, -226, 0, 23902.06, -11723.85)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#961c2d"/>
+      <stop offset="1" stop-color="#5f0315"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-65" x1="-85.76" y1="99.16" x2="-85.73" y2="99.12" gradientTransform="matrix(0, -322, -118, 0, 11697.91, -27583.68)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#630416"/>
+      <stop offset="1" stop-color="#620416"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-66" x1="-85.58" y1="104.79" x2="-85.55" y2="104.76" gradientTransform="matrix(0, -234, -179, 0, 18759.92, -19997.72)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c6394c"/>
+      <stop offset="1" stop-color="#c73a4d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-67" x1="-85.37" y1="103.32" x2="-85.34" y2="103.3" gradientTransform="matrix(0, -129, -169, 0, 17461.04, -10985.97)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#660516"/>
+      <stop offset="1" stop-color="#6d0819"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-68" x1="-85.68" y1="105.77" x2="-85.65" y2="105.74" gradientTransform="matrix(0, -130, -226, 0, 23902.06, -11112.85)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#640517"/>
+      <stop offset="1" stop-color="#a62536"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-69" x1="-88.65" y1="96.85" x2="-88.62" y2="96.82" gradientTransform="matrix(0, -181, -80, 0, 7756.96, -16031.96)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffefdf"/>
+      <stop offset="1" stop-color="#fff4e8"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-70" x1="-92.61" y1="96.08" x2="-92.58" y2="96.06" gradientTransform="matrix(0, -150, -69, 0, 6642.96, -13888.96)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#eb5265"/>
+      <stop offset="1" stop-color="#ba3244"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-71" x1="-89.79" y1="102.47" x2="-89.77" y2="102.44" gradientTransform="matrix(0, -152, -105, 0, 10774.96, -13637.96)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffe8d1"/>
+      <stop offset="1" stop-color="#ffe8d1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-72" x1="-90.13" y1="102.25" x2="-90.1" y2="102.22" gradientTransform="matrix(0, -136, -113, 0, 11565.96, -12245.96)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff5ea"/>
+      <stop offset="1" stop-color="#fff3e7"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-73" x1="-90.99" y1="103.36" x2="-90.96" y2="103.33" gradientTransform="matrix(0, -70, -105, 0, 10870.02, -6354.93)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffebd7"/>
+      <stop offset="1" stop-color="#ffeedc"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-74" x1="-93.11" y1="102.15" x2="-93.08" y2="102.12" gradientTransform="matrix(0, -54, -89, 0, 9112.02, -5013.87)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffdab5"/>
+      <stop offset="1" stop-color="#ffddba"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-75" x1="-91.03" y1="92.75" x2="-91.01" y2="92.72" gradientTransform="matrix(0, -86, -50, 0, 4655.05, -7815.98)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffefde"/>
+      <stop offset="1" stop-color="#ffead5"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-76" x1="-90.52" y1="102.16" x2="-90.49" y2="102.14" gradientTransform="matrix(0, -99, -89, 0, 9111.96, -8947.92)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffbca2"/>
+      <stop offset="1" stop-color="#ffd8b4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-77" x1="-89.95" y1="93.72" x2="-89.92" y2="93.69" gradientTransform="matrix(0, -118, -52, 0, 4891.05, -10600.98)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffe5ca"/>
+      <stop offset="1" stop-color="#ffe1c3"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-78" x1="-85.23" y1="94.38" x2="-85.2" y2="94.36" gradientTransform="matrix(0, -97, -79, 0, 7459.96, -8241.98)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b22d3f"/>
+      <stop offset="1" stop-color="#e24c5e"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-79" x1="-85.68" y1="90.37" x2="-85.65" y2="90.35" gradientTransform="matrix(0, -130, -65, 0, 5877.95, -11112.97)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ae2a3c"/>
+      <stop offset="1" stop-color="#dc485a"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-80" x1="-86.22" y1="87.87" x2="-86.2" y2="87.84" gradientTransform="matrix(0, -132, -56, 0, 4926.05, -11357.96)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f75a6c"/>
+      <stop offset="1" stop-color="#fd5f71"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-81" x1="-86.27" y1="90.89" x2="-86.25" y2="90.86" gradientTransform="matrix(0, -106, -64, 0, 5822.02, -9121.98)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#eb5265"/>
+      <stop offset="1" stop-color="#fa5d70"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-82" x1="-94.44" y1="101.9" x2="-94.41" y2="101.87" gradientTransform="matrix(0, -98, -149, 0, 15182.04, -9250.92)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a72637"/>
+      <stop offset="1" stop-color="#a32436"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-83" x1="-92.09" y1="100.39" x2="-92.07" y2="100.37" gradientTransform="matrix(0, -143, -121, 0, 12149.15, -13165.96)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a92739"/>
+      <stop offset="1" stop-color="#a62536"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-84" x1="-101.87" y1="100.38" x2="-101.84" y2="100.35" gradientTransform="matrix(0, -55, -131, 0, 13148.04, -5600.84)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a22335"/>
+      <stop offset="1" stop-color="#a32436"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-85" x1="-98.85" y1="100.39" x2="-98.82" y2="100.37" gradientTransform="matrix(0, -69, -121, 0, 12149.21, -6818.93)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a62536"/>
+      <stop offset="1" stop-color="#a52435"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-86" x1="-98.85" y1="87.32" x2="-98.82" y2="87.29" gradientTransform="matrix(0, -69, -61, 0, 5327.07, -6818.98)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a32436"/>
+      <stop offset="1" stop-color="#a52435"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-87" x1="-91.07" y1="99.41" x2="-91.04" y2="99.39" gradientTransform="matrix(0, -152, -87, 0, 8660.96, -13836.96)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffedda"/>
+      <stop offset="1" stop-color="#ffe0c1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-88" x1="-93.61" y1="96.95" x2="-93.58" y2="96.93" gradientTransform="matrix(0, -113, -73, 0, 7092.96, -10573.98)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff8984"/>
+      <stop offset="1" stop-color="#ff958b"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-89" x1="-86.42" y1="96.04" x2="-86.39" y2="96.01" gradientTransform="matrix(0, -274, -62, 0, 5971.99, -23653.94)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffa695"/>
+      <stop offset="1" stop-color="#ffebd7"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-90" x1="-86.29" y1="106.96" x2="-86.27" y2="106.93" gradientTransform="matrix(0, -202, -205, 0, 21935.92, -17407.82)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffab98"/>
+      <stop offset="1" stop-color="#ffe0c0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-91" x1="-111.6" y1="114.78" x2="-111.57" y2="114.75" gradientTransform="matrix(35.47, 30.83, 102.99, -118.5, -7846.07, 17063.63)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffdfbf"/>
+      <stop offset="1" stop-color="#ffe9d2"/>
+    </linearGradient>
+  </defs>
+  <title>7123</title>
+  <g style="isolation: isolate">
+    <g id="Layer_1" data-name="Layer 1">
+      <g style="mix-blend-mode: multiply">
+        <g>
+          <polygon points="12.7 2.7 8.2 2.9 8.5 3.3 12.7 2.7" fill="url(#linear-gradient)"/>
+          <polygon points="8.2 2.9 7 5.6 8.5 3.3 8.2 2.9" fill="url(#linear-gradient-2)"/>
+          <polygon points="12.7 2.7 9.8 0.3 8.2 2.9 12.7 2.7" fill="url(#linear-gradient-3)"/>
+          <polygon points="10.1 0 9.6 0 9.8 0.3 10.1 0" fill="url(#linear-gradient-4)"/>
+          <polygon points="0.5 14.3 0 18.4 3.6 15.8 0.5 14.3" fill="url(#linear-gradient-5)"/>
+          <polygon points="25 17 25 16 20.9 16.2 25 17" fill="#fff"/>
+          <polygon points="0 18.4 2.2 18.6 3.7 16.7 0 18.4" fill="url(#linear-gradient-6)"/>
+          <polygon points="3.6 15.8 0 18.4 3.7 16.7 3.6 15.8" fill="url(#linear-gradient-7)"/>
+          <polygon points="7 5.6 5.3 10.7 9.2 7.8 7 5.6" fill="url(#linear-gradient-8)"/>
+          <polygon points="9.2 7.8 5.3 10.7 9.9 9.6 9.2 7.8" fill="url(#linear-gradient-9)"/>
+          <polygon points="18.5 25 20.4 25 17.8 24.8 18.5 25" fill="#fff"/>
+          <polygon points="10.6 25 11.5 25 10.9 24.4 10.6 25" fill="url(#linear-gradient-10)"/>
+          <polygon points="10.9 24.4 11.5 25 17.7 25 17.8 24.8 10.9 24.4" fill="#fff"/>
+          <polygon points="5.9 23.4 6.7 25 10.6 25 10.9 24.4 5.9 23.4" fill="url(#linear-gradient-11)"/>
+          <polygon points="8.7 19.7 10.9 24.4 10.3 19.7 8.7 19.7" fill="url(#linear-gradient-12)"/>
+          <polygon points="21.3 9.6 20.1 7.3 19.3 9.9 21.3 9.6" fill="#fff"/>
+          <polygon points="21.3 9.6 24.6 6.6 20.1 7.3 21.3 9.6" fill="#fff"/>
+          <polygon points="9.6 0 9.5 0 9.8 0.3 9.6 0" fill="url(#linear-gradient-13)"/>
+          <polygon points="20.1 7.3 24.6 6.6 16.4 4.2 20.1 7.3" fill="#fff"/>
+          <polygon points="5.9 23.4 10.9 24.4 7.1 20.4 5.9 23.4" fill="url(#linear-gradient-14)"/>
+          <polygon points="7.1 20.4 10.9 24.4 8.7 19.7 7.1 20.4" fill="url(#linear-gradient-15)"/>
+          <polygon points="2.2 18.6 5.2 22.1 7.1 20.4 2.2 18.6" fill="url(#linear-gradient-16)"/>
+          <polygon points="12.8 1 9.8 0.3 12.7 2.7 12.8 1" fill="url(#linear-gradient-17)"/>
+          <polygon points="24.6 6.6 18.5 0 17.7 0 16.4 4.2 24.6 6.6" fill="#fff"/>
+          <polygon points="18.7 0 18.5 0 24.6 6.6 18.7 0" fill="#fff"/>
+          <polygon points="1.8 0 0.5 0 0.6 0.2 1.8 0" fill="url(#linear-gradient-18)"/>
+          <polygon points="17.7 25 17.9 25 17.8 24.8 17.7 25" fill="#fff"/>
+          <polygon points="17.9 25 18.5 25 17.8 24.8 17.9 25" fill="#fff"/>
+          <polygon points="20.9 16.2 25 16 25 15 21.3 13.1 20.9 16.2" fill="#fff"/>
+          <polygon points="20.9 16.2 21.3 13.1 20.5 14.3 20.9 16.2" fill="#fff"/>
+          <polygon points="21.7 6.6 18 3.6 18.1 6.7 21.7 6.6" fill="url(#linear-gradient-19)"/>
+          <polygon points="16.5 7.3 16.4 4.2 12.3 6.2 16.5 7.3" fill="#fff"/>
+          <polygon points="19.3 9.9 20.1 7.3 16.5 7.3 19.3 9.9" fill="#fff"/>
+          <polygon points="7.1 20.4 8.7 19.7 6.6 18 7.1 20.4" fill="url(#linear-gradient-20)"/>
+          <polygon points="6.6 18 2.2 18.6 7.1 20.4 6.6 18" fill="url(#linear-gradient-21)"/>
+          <polygon points="8.7 19.7 10.3 19.7 6.6 18 8.7 19.7" fill="url(#linear-gradient-22)"/>
+          <polygon points="6.6 18 10.3 19.7 9 13.9 6.6 18" fill="url(#linear-gradient-23)"/>
+          <polygon points="3.7 16.7 2.2 18.6 6.6 18 3.7 16.7" fill="url(#linear-gradient-24)"/>
+          <polygon points="3.7 16.7 6.6 18 3.6 15.8 3.7 16.7" fill="url(#linear-gradient-25)"/>
+          <polygon points="18.1 18.4 25 17.5 25 17 20.9 16.2 18.1 18.4" fill="#fff"/>
+          <polygon points="20.1 19.1 22.9 16.9 22.6 15 20.1 19.1" fill="url(#linear-gradient-26)"/>
+          <polygon points="17.5 12.7 18.1 18.4 20.5 14.3 17.5 12.7" fill="#fff"/>
+          <polygon points="14.1 13.7 18.1 18.4 17.5 12.7 14.1 13.7" fill="url(#linear-gradient-27)"/>
+          <polygon points="23.5 3.6 20.7 1 22 4.4 23.5 3.6" fill="url(#linear-gradient-28)"/>
+          <polygon points="10.6 5.5 9.2 7.8 11.8 6.9 10.6 5.5" fill="url(#linear-gradient-29)"/>
+          <polygon points="11.8 6.9 12.3 6.2 10.6 5.5 11.8 6.9" fill="url(#linear-gradient-30)"/>
+          <polygon points="8.5 3.3 7 5.6 10.6 5.5 8.5 3.3" fill="url(#linear-gradient-31)"/>
+          <polygon points="10.6 5.5 12.7 2.7 8.5 3.3 10.6 5.5" fill="url(#linear-gradient-32)"/>
+          <polygon points="0.5 0 0 0 0 0.5 0.6 0.2 0.5 0" fill="url(#linear-gradient-33)"/>
+          <polygon points="3.1 13.4 0.5 14.3 3.6 15.8 3.1 13.4" fill="url(#linear-gradient-34)"/>
+          <polygon points="5.3 10.7 3.1 13.4 4.9 12.1 5.3 10.7" fill="url(#linear-gradient-35)"/>
+          <polygon points="21.5 11.9 25 14.5 25 8.2 24.6 6.6 21.5 11.9" fill="#fff"/>
+          <polygon points="21.3 13.1 25 15 25 14.5 21.5 11.9 21.3 13.1" fill="#fff"/>
+          <polygon points="21.5 11.9 24.6 6.6 21.3 9.6 21.5 11.9" fill="#fff"/>
+          <polygon points="8.2 2.9 2.4 3.6 7 5.6 8.2 2.9" fill="url(#linear-gradient-36)"/>
+          <polygon points="2.4 3.6 5.3 10.7 7 5.6 2.4 3.6" fill="url(#linear-gradient-37)"/>
+          <polygon points="20.9 10.4 21.5 11.9 21.3 9.6 20.9 10.4" fill="url(#linear-gradient-38)"/>
+          <polygon points="20.9 10.4 21.3 9.6 19.3 9.9 20.9 10.4" fill="url(#linear-gradient-39)"/>
+          <polygon points="3.6 15.8 6.6 18 7.9 13.7 3.6 15.8" fill="url(#linear-gradient-40)"/>
+          <polygon points="7.9 13.7 6.6 18 9 13.9 7.9 13.7" fill="url(#linear-gradient-41)"/>
+          <polygon points="7.9 13.7 3.1 13.4 3.6 15.8 7.9 13.7" fill="url(#linear-gradient-42)"/>
+          <polygon points="9.9 9.6 7.9 13.7 9 13.9 9.9 9.6" fill="url(#linear-gradient-43)"/>
+          <polygon points="4.9 12.1 3.1 13.4 7.9 13.7 4.9 12.1" fill="url(#linear-gradient-44)"/>
+          <polygon points="7.9 13.7 5.3 10.7 4.9 12.1 7.9 13.7" fill="url(#linear-gradient-45)"/>
+          <polygon points="9.9 9.6 5.3 10.7 7.9 13.7 9.9 9.6" fill="url(#linear-gradient-46)"/>
+          <polygon points="5.4 0.3 2.4 3.6 8.2 2.9 5.4 0.3" fill="url(#linear-gradient-47)"/>
+          <polygon points="9.8 0.3 5.4 0.3 8.2 2.9 9.8 0.3" fill="url(#linear-gradient-48)"/>
+          <polygon points="9.8 0.3 9.5 0 5.5 0 5.4 0.3 9.8 0.3" fill="url(#linear-gradient-49)"/>
+          <polygon points="5.5 0 3.3 0 5.4 0.3 5.5 0" fill="url(#linear-gradient-50)"/>
+          <polygon points="12.8 1 13.3 0 10.3 0 9.8 0.3 12.8 1" fill="url(#linear-gradient-51)"/>
+          <polygon points="10.3 0 10.1 0 9.8 0.3 10.3 0" fill="url(#linear-gradient-52)"/>
+          <polygon points="2.2 18.6 0 19.5 0 20.1 5.2 22.1 2.2 18.6" fill="url(#linear-gradient-53)"/>
+          <polygon points="0 18.4 0 18.4 0 19.5 2.2 18.6 0 18.4" fill="url(#linear-gradient-54)"/>
+          <polygon points="11.8 6.9 9.2 7.8 11.4 7.7 11.8 6.9" fill="url(#linear-gradient-55)"/>
+          <polygon points="9.2 7.8 9.9 9.6 11.4 7.7 9.2 7.8" fill="url(#linear-gradient-56)"/>
+          <polygon points="0 2.4 0 4.6 2.4 3.6 0 2.4" fill="url(#linear-gradient-57)"/>
+          <polygon points="3.1 13.4 0 7.5 0 11.6 0.5 14.3 3.1 13.4" fill="url(#linear-gradient-58)"/>
+          <polygon points="5.3 10.7 0 6.2 0 7.5 3.1 13.4 5.3 10.7" fill="url(#linear-gradient-59)"/>
+          <polygon points="2.4 3.6 0 4.6 0 6.2 5.3 10.7 2.4 3.6" fill="url(#linear-gradient-60)"/>
+          <polygon points="0 18.4 0 18.4 0 18.4 0 18.4" fill="url(#linear-gradient-61)"/>
+          <polygon points="0.5 14.3 0 14.9 0 18.4 0 18.4 0.5 14.3" fill="url(#linear-gradient-62)"/>
+          <polygon points="0 11.6 0 14.9 0.5 14.3 0 11.6" fill="url(#linear-gradient-63)"/>
+          <polygon points="0 20.1 0 22.8 5.2 22.1 0 20.1" fill="url(#linear-gradient-64)"/>
+          <polygon points="0 25 0.4 25 0 24.6 0 25" fill="url(#linear-gradient-65)"/>
+          <polygon points="3.7 25 6.7 25 5.9 23.4 3.7 25" fill="url(#linear-gradient-66)"/>
+          <polygon points="0 24.6 0.4 25 3.4 25 0 23.6 0 24.6" fill="url(#linear-gradient-67)"/>
+          <polygon points="0 22.8 0 23.6 3.4 25 3.6 25 5.2 22.1 0 22.8" fill="url(#linear-gradient-68)"/>
+          <polygon points="25 6 25 1.4 20.4 0 18.7 0 24.6 6.6 25 6" fill="#fff"/>
+          <polygon points="25 0 20.4 0 25 1.4 25 0" fill="#fff"/>
+          <polygon points="24.6 6.6 25 8.2 25 6 24.6 6.6" fill="#fff"/>
+          <polygon points="11.3 9.9 9.9 9.6 9 13.9 11.3 9.9" fill="url(#linear-gradient-69)"/>
+          <polygon points="14.8 0.6 12.8 1 12.7 2.7 14.8 0.6" fill="#fff"/>
+          <polygon points="14.8 0.6 14.8 0 13.3 0 12.8 1 14.8 0.6" fill="url(#linear-gradient-70)"/>
+          <polygon points="16.3 0 15.5 0 14.8 0.6 16.3 0" fill="#fff"/>
+          <polygon points="15.5 0 14.8 0 14.8 0.6 15.5 0" fill="#fff"/>
+          <polygon points="14.7 10.9 16.5 7.3 11.4 7.7 14.7 10.9" fill="#fff"/>
+          <polygon points="14.1 13.7 17.5 12.7 14.7 10.9 14.1 13.7" fill="#fff"/>
+          <polygon points="14.7 10.9 17.5 12.7 17.7 10.7 14.7 10.9" fill="#fff"/>
+          <polygon points="18.2 9.8 16.9 6.4 15.1 10 18.2 9.8" fill="url(#linear-gradient-71)"/>
+          <polygon points="11.3 9.9 14.7 10.9 11.4 7.7 11.3 9.9" fill="url(#linear-gradient-72)"/>
+          <polygon points="20.5 14.3 21.3 13.1 18.9 12.7 20.5 14.3" fill="#fff"/>
+          <polygon points="20.5 14.3 18.9 12.7 17.5 12.7 20.5 14.3" fill="url(#linear-gradient-73)"/>
+          <polygon points="22.8 13.6 23 12.4 20.3 13.2 22.8 13.6" fill="url(#linear-gradient-74)"/>
+          <polygon points="17.5 12.7 18.9 12.7 17.7 10.7 17.5 12.7" fill="url(#linear-gradient-75)"/>
+          <polygon points="18.9 12.7 21.5 11.9 20.9 10.4 18.9 12.7" fill="url(#linear-gradient-76)"/>
+          <polygon points="17.7 10.7 18.9 12.7 19.3 9.9 17.7 10.7" fill="url(#linear-gradient-77)"/>
+          <polygon points="18.9 12.7 20.9 10.4 19.3 9.9 18.9 12.7" fill="#fff"/>
+          <polygon points="20.4 25 25 25 25 23.4 17.8 24.8 20.4 25" fill="#fff"/>
+          <polygon points="17.8 24.8 25 23.4 25 22 18.1 18.4 17.8 24.8" fill="#fff"/>
+          <polygon points="25 22 25 17.5 18.1 18.4 25 22" fill="#fff"/>
+          <polygon points="5.5 22.8 3.6 25 3.7 25 5.9 23.4 5.5 22.8" fill="url(#linear-gradient-78)"/>
+          <polygon points="5.2 22.1 3.6 25 3.6 25 5.5 22.8 5.2 22.1" fill="url(#linear-gradient-79)"/>
+          <polygon points="5.5 22.8 5.9 23.4 7.1 20.4 5.5 22.8" fill="url(#linear-gradient-80)"/>
+          <polygon points="5.2 22.1 5.5 22.8 7.1 20.4 5.2 22.1" fill="url(#linear-gradient-81)"/>
+          <polygon points="1.9 1.5 0 1.4 0 2.4 2.4 3.6 1.9 1.5" fill="url(#linear-gradient-82)"/>
+          <polygon points="1.9 1.5 2.4 3.6 5.4 0.3 1.9 1.5" fill="url(#linear-gradient-83)"/>
+          <polygon points="0.6 0.2 0 0.5 0 1.4 1.9 1.5 0.6 0.2" fill="url(#linear-gradient-84)"/>
+          <polygon points="5.4 0.3 3.3 0 2.4 0 1.9 1.5 5.4 0.3" fill="url(#linear-gradient-85)"/>
+          <polygon points="1.9 1.5 2.4 0 1.8 0 0.6 0.2 1.9 1.5" fill="url(#linear-gradient-86)"/>
+          <polygon points="12.3 6.2 14.9 3.2 12.7 2.7 12.3 6.2" fill="url(#linear-gradient-87)"/>
+          <polygon points="16.4 4.2 17.7 0 17.4 0 14.9 3.2 16.4 4.2" fill="#fff"/>
+          <polygon points="17.1 3.2 17.1 0.6 15 2.7 17.1 3.2" fill="url(#linear-gradient-88)"/>
+          <polygon points="14.9 3.2 17.4 0 16.3 0 14.8 0.6 14.9 3.2" fill="#fff"/>
+          <polygon points="10.9 24.4 17.8 24.8 16.3 19.8 10.9 24.4" fill="#fff"/>
+          <polygon points="19.3 24.1 19.6 17.8 17.8 19.2 19.3 24.1" fill="url(#linear-gradient-89)"/>
+          <polygon points="10.3 19.7 10.9 24.4 16.3 19.8 10.3 19.7" fill="url(#linear-gradient-90)"/>
+          <polygon points="16.3 19.8 18.1 18.4 14.1 13.7 16.3 19.8" fill="#fff"/>
+          <polygon points="13.9 24.7 17.4 22.3 17.3 21.5 13.9 24.7" fill="url(#linear-gradient-91)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

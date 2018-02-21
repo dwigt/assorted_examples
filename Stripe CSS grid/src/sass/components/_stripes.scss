@@ -1,0 +1,48 @@
+body {
+background: #DD5E89;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F7BB97, #DD5E89);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F7BB97, #DD5E89); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.creature {
+    width: 200px;
+    height: 100px;
+    background-color: white;
+}
+
+.stripes {
+display: grid;
+grid: repeat(5, 100px) / repeat(10, 1fr);
+  
+}
+
+.stripes :nth-child(1) {
+grid-column: span 3;
+background: #DD5E89;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F7BB97, #DD5E89);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F7BB97, #DD5E89); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  
+}
+
+.stripes :nth-child(2) {
+  grid-area: 3 / span 3 / auto / -1;
+background: #DD5E89;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F7BB97, #DD5E89);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F7BB97, #DD5E89); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.stripes :nth-child(3) {
+grid-row: 4;
+grid-column: span 5;
+background: #DD5E89;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F7BB97, #DD5E89);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F7BB97, #DD5E89); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.stripes {
+  transform: skewY(-12deg);
+  transform-origin: 0;
+}

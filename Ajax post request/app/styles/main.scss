@@ -1,0 +1,182 @@
+// bower:scss
+@import "bower_components/bootstrap/scss/bootstrap.scss";
+// endbower
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  background-image: url("");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  font-size: 16px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  @media (min-width: 800px) {
+    font-size: 20px;
+  }
+}
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 1rem;
+  border-bottom: .05rem solid #e5e5e5;
+}
+
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 3rem;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 1.5rem;
+  color: #777;
+  border-top: .05rem solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 48em) {
+  .container {
+    max-width: 46rem;
+  }
+}
+.container-narrow > hr {
+  margin: 2rem 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: center;
+  border-bottom: .05rem solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: .75rem 1.5rem;
+  font-size: 1.5rem;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 3rem 0;
+}
+.marketing p + h4 {
+  margin-top: 1.5rem;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 48em) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 2rem;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+.margintop {
+  margin-top: 32px;
+}
+
+.container2 {
+  display: flex;
+  align-items: middle;
+  justify-content: center;
+}
+.container {
+  
+  background-color: white;
+  padding: 40px;
+  min-width: 50%;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+}
+
+.centerTable {
+  text-align: left;
+  margin: 0 auto;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.leftTable {
+  width: 100px;
+}
+
+h1 {
+  font-size: 3.157rem;
+  margin: 48px;
+}
+h2 {
+  font-size: 2.369rem;
+  margin: 24px;
+}
+h3 {
+  font-size: 1.777rem;
+  margin: 24px;
+}
+h4 {
+  font-size: 1.414em;
+  margin: 24px;
+}
+h5 {
+  margin: 24px;
+}
+
+table {
+  margin: 48px 0px;
+}
+
+input {
+  margin-top: 12px;
+}
+
+.logos img{
+  margin: 12px 6px;
+}
+
+#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+	
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.tilmeldingscontainer {
+  background-color: lightgray;
+  padding: 40px;
+}

@@ -1,0 +1,12 @@
+// Font smoothing
+// Use to use antialiased font smoothing, or not
+
+@mixin font-smoothing() {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+@mixin no-font-smoothing() {
+	-webkit-font-smoothing: subpixel-antialiased;
+	-moz-osx-font-smoothing: none;
+}
