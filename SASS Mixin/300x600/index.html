@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>
+    300x600
+  </title>
+  <meta name="ad.size" content="width=300,height=600">
+  <script type="text/javascript">
+    var clickTag = "http://www.google.com";
+  </script>
+  <!-- <script src="https://s0.2mdn.net/ads/studio/Enabler.js"></script> -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script> -->
+
+  <style type="text/css">
+    * {
+      margin: 0;
+      padding: 0;
+      border: none;
+      box-sizing: border-box;
+    }
+
+    #banner {
+      display: block;
+      width: 300px;
+      height: 600px;
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      background-color: #000;
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+
+    #banner.animate {
+      opacity: 1;
+    }
+
+    #exit_click_area {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0px;
+      top: 0px;
+      overflow: hidden;
+      background-image: none;
+      z-index: 4;
+    }
+
+    .img {
+      position: absolute;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    .bg-container {
+      left: 0;
+      top: -600px;
+      width: 100%;
+      height: 1200px;
+      position: relative;
+    }
+
+    #bg {
+      top: 559px;
+      left: -30px;
+    }
+
+    #textcontainer {
+      top: 600px;
+      position: relative;
+      height: 600px;
+    }
+
+    .animate #textcontainer {
+      animation: textcontainer 1.75s ease-in-out both;
+    }
+
+    .animate .bg-container {
+      animation: background 1.75s ease-in-out both;
+    }
+
+    .animate #bg {
+      animation: backgroundImage 1.75s ease-in-out both;
+    }
+
+    @keyframes backgroundImage {
+      100% {
+        transform: scale(0.84);
+      }
+    }
+
+    @keyframes textcontainer {
+      100% {
+        transform: translateY(200px);
+      }
+    }
+
+    @keyframes background {
+      100% {
+        transform: translateY(-200px);
+      }
+    }
+
+    .snowflake {
+      position: absolute;
+      transform-origin: center;
+    }
+
+    .animate .snowflake {
+      animation: 37s snowflake linear both;
+    }
+
+    .snowflake {
+      transform: scale(0.8);
+    }
+
+    @keyframes snowflake {
+      25% {
+        transform: translateX(-10px) translateY(300px) rotateZ(180deg) scale(0.8);
+      }
+
+      50% {
+        transform: translateX(10px) translateY(600px) rotateZ(360deg) scale(0.8);
+      }
+
+      75% {
+        transform: translateX(-10px) translateY(900px) rotateZ(540deg) scale(0.8);
+      }
+
+      100% {
+        transform: translateX(10px) translateY(1200px) rotateZ(720deg) scale(0.8);
+        ;
+      }
+    }
+
+    #t1 {
+      top: 41px;
+      left: 0;
+    }
+
+    #t2 {
+      bottom: 64px;
+      right: 0;
+    }
+
+    #legal {
+      bottom: 0px;
+      right: 0px;
+    }
+
+    .legal-container {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      z-index: 1;
+    }
+
+    .snowflake:nth-of-type(1) {
+      animation-duration: 37s;
+      top: 51%;
+      left: 0%;
+    }
+
+    .snowflake:nth-of-type(2) {
+      animation-duration: 37s;
+      top: 45%;
+      left: 4.1666666667%;
+    }
+
+    .snowflake:nth-of-type(3) {
+      animation-duration: 39s;
+      top: 9%;
+      left: 8.3333333333%;
+    }
+
+    .snowflake:nth-of-type(4) {
+      animation-duration: 39s;
+      top: 26%;
+      left: 12.5%;
+    }
+
+    .snowflake:nth-of-type(5) {
+      animation-duration: 38s;
+      top: 29%;
+      left: 16.6666666667%;
+    }
+
+    .snowflake:nth-of-type(6) {
+      animation-duration: 37s;
+      top: 51%;
+      left: 20.8333333333%;
+    }
+
+    .snowflake:nth-of-type(7) {
+      animation-duration: 40s;
+      top: 16%;
+      left: 25%;
+    }
+
+    .snowflake:nth-of-type(8) {
+      animation-duration: 37s;
+      top: 9%;
+      left: 29.1666666667%;
+    }
+
+    .snowflake:nth-of-type(9) {
+      animation-duration: 40s;
+      top: 59%;
+      left: 33.3333333333%;
+    }
+
+    .snowflake:nth-of-type(10) {
+      animation-duration: 39s;
+      top: 22%;
+      left: 37.5%;
+    }
+
+    .snowflake:nth-of-type(11) {
+      animation-duration: 38s;
+      top: 44%;
+      left: 41.6666666667%;
+    }
+
+    .snowflake:nth-of-type(12) {
+      animation-duration: 40s;
+      top: 72%;
+      left: 45.8333333333%;
+    }
+
+    .snowflake:nth-of-type(13) {
+      animation-duration: 40s;
+      top: 75%;
+      left: 50%;
+    }
+
+    .snowflake:nth-of-type(14) {
+      animation-duration: 37s;
+      top: 1%;
+      left: 54.1666666667%;
+    }
+
+    .snowflake:nth-of-type(15) {
+      animation-duration: 38s;
+      top: 34%;
+      left: 58.3333333333%;
+    }
+
+    .snowflake:nth-of-type(16) {
+      animation-duration: 39s;
+      top: 13%;
+      left: 62.5%;
+    }
+
+    .snowflake:nth-of-type(17) {
+      animation-duration: 38s;
+      top: 47%;
+      left: 66.6666666667%;
+    }
+
+    .snowflake:nth-of-type(18) {
+      animation-duration: 40s;
+      top: 3%;
+      left: 70.8333333333%;
+    }
+
+    .snowflake:nth-of-type(19) {
+      animation-duration: 39s;
+      top: 1%;
+      left: 75%;
+    }
+
+    .snowflake:nth-of-type(20) {
+      animation-duration: 37s;
+      top: 64%;
+      left: 79.1666666667%;
+    }
+
+    .snowflake:nth-of-type(21) {
+      animation-duration: 40s;
+      top: 73%;
+      left: 83.3333333333%;
+    }
+
+    .snowflake:nth-of-type(22) {
+      animation-duration: 39s;
+      top: 78%;
+      left: 87.5%;
+    }
+
+    .snowflake:nth-of-type(23) {
+      animation-duration: 39s;
+      top: 16%;
+      left: 91.6666666667%;
+    }
+
+    .snowflake:nth-of-type(24) {
+      animation-duration: 40s;
+      top: 55%;
+      left: 95.8333333333%;
+    }
+
+    /* SCSS FORMULAS
+$left: 100/24;
+.snowflake{
+  @for $index from 1 through 24 {
+    &:nth-of-type(#{$index}){
+      animation-duration: random(4) + 12s;
+      top: -20% + random(80);
+      left: (0% + $index * $left - $left);
+    }
+  }
+}
+*/
+    #border {
+      width: calc(100%);
+      height: calc(100%);
+      border: 1px solid #d70811;
+      top: 0;
+      left: 0;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div id="banner">
+    <a href="javascript:window.open(window.clickTag)">
+      <div id="exit_click_area"></div>
+
+      <div class="bg-container">
+        <img id="bg" src="assets/bg.jpg" class="img">
+        <div id="textcontainer" class="img">
+          <img id="t1" src="assets/t1.png" class="img">
+          <img id="t2" src="assets/t2.png" class="img">
+          <img id="legal" src="assets/legal.png" class="img">
+        </div>
+        <img class="snowflake" src="assets/snowflake1.png" class="img">
+        <img class="snowflake" src="assets/snowflake2.png" class="img">
+        <img class="snowflake" src="assets/snowflake3.png" class="img">
+        <img class="snowflake" src="assets/snowflake4.png" class="img">
+        <img class="snowflake" src="assets/snowflake5.png" class="img">
+        <img class="snowflake" src="assets/snowflake6.png" class="img">
+
+        <img class="snowflake" src="assets/snowflake1.png" class="img">
+        <img class="snowflake" src="assets/snowflake2.png" class="img">
+        <img class="snowflake" src="assets/snowflake3.png" class="img">
+        <img class="snowflake" src="assets/snowflake4.png" class="img">
+        <img class="snowflake" src="assets/snowflake5.png" class="img">
+        <img class="snowflake" src="assets/snowflake6.png" class="img">
+
+        <img class="snowflake" src="assets/snowflake1.png" class="img">
+        <img class="snowflake" src="assets/snowflake2.png" class="img">
+        <img class="snowflake" src="assets/snowflake3.png" class="img">
+        <img class="snowflake" src="assets/snowflake4.png" class="img">
+        <img class="snowflake" src="assets/snowflake5.png" class="img">
+        <img class="snowflake" src="assets/snowflake6.png" class="img">
+
+        <img class="snowflake" src="assets/snowflake1.png" class="img">
+        <img class="snowflake" src="assets/snowflake2.png" class="img">
+        <img class="snowflake" src="assets/snowflake3.png" class="img">
+        <img class="snowflake" src="assets/snowflake4.png" class="img">
+        <img class="snowflake" src="assets/snowflake5.png" class="img">
+        <img class="snowflake" src="assets/snowflake6.png" class="img">
+
+
+      </div>
+
+      <div id="border" class="img"></div>
+    </a>
+  </div>
+
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
